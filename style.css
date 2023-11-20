@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-html{
+header{
     color: white;
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
@@ -36,11 +37,13 @@ header nav figure,
 header nav ul,
 header nav a{
     background-color: #255ee9;
+    margin-top: 20px;
 }
 
 header nav ul{
     display: flex;
-    gap: 10px;
+    gap: 40px;
+    font-size: 15px;
 }
 
 header nav ul li{
@@ -50,10 +53,9 @@ header nav ul li{
 }
 
 #cta{
-    background-color: lightpink;
+    
     width: 60%;
     margin: 50px auto 0 auto;
-
     text-align: center;
 }
 
@@ -73,7 +75,9 @@ section figure{
 }
 
 section .section-text{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+    padding: 50px;
+   
 }
 
 section .img-text{
@@ -128,7 +132,26 @@ footer .footer-login{
     justify-content: space-between;
 }
 
-.sfondo nav a{
-border: 1px solid black;
-border-radius: 2px;
+.accedi,
+div button{
+    border-radius: 20px;
+    background: white;
+    padding: 10px;
+    color: black;
+  }
+
+ .tasto2{
+    background-color: #23272a;
+    color: white;
 }
+
+#cta-buttons{
+    margin-block: 20px;
+}
+
+#cta h2{
+    margin-block: 20px; 
+    font-size: 40px; 
+}
+
+
