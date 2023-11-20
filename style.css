@@ -210,15 +210,22 @@ margin-bottom: 40px;
     background: #8ea1e1;
     padding: 10px;
     color: white;
+    margin-block: 20px;
+
 }
 .stelline{
     background-image: url("./img/stars.svg");
+    background-size: contain;
 }
 
-footer div div div{
-    height: 30px;
-}
 .bandiera{
     height: 100%;
 }
 
+.bandiera img{
+   height: 20px;
+}
+
+div figure img{
+    margin-block: 20px;
+}
