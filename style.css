@@ -135,6 +135,7 @@ footer .container{
 
 footer div div h4{
     color: #8ea1e1;
+    
 }
 
 footer div div ul li a{
@@ -200,7 +201,7 @@ margin-bottom: 40px;
 #primo{
     font-size: 20px;
 }
-.bandiera{
+.bandiera{ 
     height: 100%;
 }
 
@@ -212,6 +213,12 @@ margin-bottom: 40px;
 }
 .stelline{
     background-image: url("./img/stars.svg");
+}
 
+footer div div div{
+    height: 30px;
+}
+.bandiera{
+    height: 100%;
 }
 
