@@ -16,7 +16,7 @@ a{
 
 header{
     padding: 10px 20px 40px 0;
-    background-color: lightcyan;
+    background-color: #f6f6f6;
    
 }
 
@@ -106,7 +106,7 @@ section .img-text .section-text{
 }
 
 section.discord-services:nth-child(even){
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 section.discord-services:nth-child(even) .img-text figure{
@@ -200,8 +200,8 @@ margin-bottom: 40px;
 #primo{
     font-size: 20px;
 }
-#bandiera{
-    height: 5px;
+.bandiera{
+    height: 100%;
 }
 
 .ultimotasto{
@@ -210,5 +210,8 @@ margin-bottom: 40px;
     padding: 10px;
     color: white;
 }
+.stelline{
+    background-image: url("./img/stars.svg");
 
+}
 
