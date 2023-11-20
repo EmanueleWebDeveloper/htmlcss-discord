@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
 header{
     color: white;
-    font-family: sans-serif;
 }
 a{
     text-decoration: none;
 }
 
 header{
-    /* padding: 10px 20px; */
+    padding: 10px 20px 40px 0;
     background-color: lightcyan;
-    padding-bottom: 50px;
+   
 }
 
 
@@ -31,24 +33,25 @@ header nav{
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    margin-block: 10px;
 }
 
 header nav figure,
 header nav ul,
 header nav a{
     background-color: #255ee9;
-    margin-top: 20px;
 }
 
 header nav ul{
     display: flex;
     gap: 40px;
     font-size: 15px;
+
 }
 
 header nav ul li{
     /* display: inline-block; */
-
+    padding: 10px;
     list-style-type: none;
 }
 
@@ -57,6 +60,7 @@ header nav ul li{
     width: 60%;
     margin: 50px auto 0 auto;
     text-align: center;
+    line-height: 25px;
 }
 
 .container{
@@ -65,19 +69,27 @@ header nav ul li{
 }
 
 section{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     padding-block: 20px;
     /* background-color: black; */
 }
 
 section figure{
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
 }
 
 section .section-text{
     /* background-color: lightgreen; */
     padding: 50px;
-   
+    font-size: 15px;
+    line-height: 20px; 
+}
+
+section div h3{
+    line-height: 40px;   
+    font-weight: bold; 
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 section .img-text{
@@ -138,6 +150,7 @@ div button{
     background: white;
     padding: 10px;
     color: black;
+    
   }
 
  .tasto2{
